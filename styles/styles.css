@@ -1,0 +1,136 @@
+/* Inheritance */
+/* Fonts */
+/* Colors */
+/* Breakpoints */
+/* 375px */
+/* 1440px */
+* {
+  /* Box model */
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Visual properties */
+  background-color: #ff7a7a;
+  /* Typography */
+  font-size: 16px;
+}
+
+body {
+  /* Layout */
+  /* Box model */
+  padding: 0 15px;
+  /* Visual properties */
+  background-image: url(/images/bg-intro-mobile.png);
+  background-repeat: repeat;
+  color: white;
+  /* Typography */
+  font-size: 0.6875rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+body .container-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-intro {
+  /* Box model */
+  padding-bottom: 20px;
+}
+
+.container-intro h1 {
+  /* Box model */
+  padding-top: 40px;
+  padding-bottom: 20px;
+  /* Typography */
+  font-size: 1.5rem;
+}
+
+.container-intro p {
+  /* Box model */
+  padding: 25px;
+  /* Typography */
+  font-weight: 500;
+}
+
+.container-intro button {
+  /* Box model */
+  border-radius: 10px;
+  padding: 20px 60px;
+  /* Typography */
+  font-family: "Poppins", sans-serif;
+  color: white;
+  /* Visual properties */
+  background-color: #6055a5;
+}
+
+.container-intro button span {
+  /* Typography */
+  font-weight: 600;
+}
+
+.container-form {
+  /* Box model */
+  border-radius: 10px;
+  padding: 20px;
+  /* Visual properties */
+  background-color: white;
+}
+
+.container-form input {
+  /* Box model */
+  border-radius: 10px;
+  border: 1px #b9b6d3 solid;
+  margin: 5px 0px;
+  padding: 15px;
+  /* Typography */
+  color: #b9b6d3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.container-form button {
+  /* Box model */
+  border-radius: 10px;
+  padding: 15px;
+  /* Visual properties */
+  background-color: #38cc8c;
+  /* Typography */
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container-form p {
+  /* Box model */
+  padding: 15px;
+  /* Typography */
+  color: #b9b6d3;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-form p a {
+  /* Typography */
+  color: #ff7a7a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* CSS Order */
+/* Inheritance */
+/* Layout */
+/* Box model */
+/* Visual properties */
+/* Typography */
+/* Other */
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,32 @@
+// cleaning some default styles
+* {
+    /* Box model */
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* Visual properties */
+    background-color: $color-primary-red;
+    /* Typography */
+    font-size: 16px; // rems and ems dependding on this
+}
+
+body {
+    /* Layout */
+    .container-flexbox {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Box model */
+    padding: 0 15px;
+    /* Visual properties */
+    background-image: url(/images/bg-intro-mobile.png);
+    background-repeat: repeat;
+    color: $color-font;
+    /* Typography */
+    font-size: 0.6875rem;
+    font-family: $font-primary;
+    text-align: center;
+}

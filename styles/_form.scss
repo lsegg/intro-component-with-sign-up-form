@@ -1,0 +1,43 @@
+.container-form {
+    /* Box model */
+    border-radius: 10px;
+    padding: 20px;
+    /* Visual properties */
+    background-color: $color-font;
+    input {
+        /* Box model */
+        border-radius: 10px;
+        border: 1px $color-neutral-greyish solid;
+        margin: 5px 0px;
+        padding: 15px;
+        /* Typography */
+        color: $color-neutral-greyish;
+        font-family: $font-primary;
+        font-weight: 600;
+    }
+    button {
+        /* Box model */
+        border-radius: 10px;
+        padding: 15px;
+        /* Visual properties */
+        background-color: $color-primary-green;
+        /* Typography */
+        color: $color-font;
+        font-family: $font-primary;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    p {
+        /* Box model */
+        padding: 15px;
+        /* Typography */
+        color: $color-neutral-greyish;
+        font-family: $font-primary;
+        a {
+            /* Typography */
+            color: $color-primary-red;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+}

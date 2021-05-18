@@ -1,0 +1,31 @@
+.container-intro {
+    /* Box model */
+    padding-bottom: 20px;
+    h1 {
+        /* Box model */
+        padding-top: 40px;
+        padding-bottom: 20px;
+        /* Typography */
+        font-size: 1.5rem;
+    }
+    p {
+        /* Box model */
+        padding: 25px;
+        /* Typography */
+        font-weight: 500;
+    }
+    button {
+        span {
+            /* Typography */
+            font-weight: 600;
+        }
+        /* Box model */
+        border-radius: 10px;
+        padding: 20px 60px;
+        /* Typography */
+        font-family: $font-primary;
+        color: $color-font;
+        /* Visual properties */
+        background-color: $color-accent;
+    }
+}
